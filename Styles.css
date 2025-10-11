@@ -1,0 +1,68 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+h2 {
+    color: #007BFF;
+}
+
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+
+.producto img {
+    max-width: 100%;
+}
+
+
+.btn {
+    background: #28a745;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+}
