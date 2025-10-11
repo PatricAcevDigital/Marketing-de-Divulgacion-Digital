@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Productos de Afiliado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Afiliados</h1>
+        <nav>
+            <ul>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="productos">
+            <h2>Productos Destacados</h2>
+
+
+            <div class="producto" id="producto1">
+                <img src="https://via.placeholder.com/150" alt="Producto 1">
+                <h3>Producto 1</h3>
+                <p>Descripción breve del producto 1.</p>
+                <label for="url1">URL de Afiliado:</label>
+                <input type="url" id="url1" placeholder="Ingresa la URL de afiliado">
+                <a href="#" id="btn1" class="btn" target="_blank">Comprar</a>
+            </div>
+
+
+            <div class="producto" id="producto2">
+                <img src="https://via.placeholder.com/150" alt="Producto 2">
+                <h3>Producto 2</h3>
+                <p>Descripción breve del producto 2.</p>
+                <label for="url2">URL de Afiliado:</label>
+                <input type="url" id="url2" placeholder="Ingresa la URL de afiliado">
+                <a href="#" id="btn2" class="btn" target="_blank">Comprar</a>
+            </div>
+
+
+            <div class="producto" id="producto3">
+                <img src="https://via.placeholder.com/150" alt="Producto 3">
+                <h3>Producto 3</h3>
+                <p>Descripción breve del producto 3.</p>
+                <label for="url3">URL de Afiliado:</label>
+                <input type="url" id="url3" placeholder="Ingresa la URL de afiliado">
+                <a href="#" id="btn3" class="btn" target="_blank">Comprar</a>
+            </div>
+
+
+            <button onclick="actualizarBotones()">Actualizar Enlaces</button>
+        </section>
+
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 Tienda de Afiliados</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
